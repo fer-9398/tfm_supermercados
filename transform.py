@@ -4,6 +4,8 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 import operator
+from datetime import datetime
+from datetime import timedelta
 
 
 def transform(food) -> pd.DataFrame:
@@ -24,5 +26,7 @@ def transform(food) -> pd.DataFrame:
     food = food.rename(columns = {'insert_date' : 'date'})
     food['date'] = food['date'].astype('datetime64[ns]')
     food.loc[food.description=="Granel","price"]= food.reference_price
+    #select todays date and substract one day from it
+    food[food.date ==(pd.to_datetime('today')-timedelta(days=1)).strftime('%Y-%m-%d')]
     
     return food
