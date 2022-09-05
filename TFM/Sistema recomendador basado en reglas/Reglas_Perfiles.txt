@@ -1,0 +1,54 @@
+Perdida de peso: Baja en calorias
+Nutriscore: A, B
+Kcal: < 130
+Fat: < 1
+saturated fat: 0
+carbohydrates: < 6
+sugar: < 5
+proteins: no aplica
+salt: < 1
+price: a gusto del usuario
+
+Volumen: alto en proteina y hidratos
+Nutriscore: a, b, c, d
+Kcal: no aplica
+Fat: < 3
+saturated fat: <1
+carbohydrates: no aplica
+sugar: < 10
+proteins: max
+salt: < 5
+price: no determinante
+
+Alto rendimiento: hidratos y azucar
+Nutriscore: a, b, c
+Kcal: max
+Fat: < 3
+saturated fat: < 1
+carbohydrates: max
+sugar: max
+proteins: no aplica
+salt: no aplica
+price: no determinante
+
+Balanceado: Economica, nutriscore ABC
+Nutriscore: a, b, c, d
+Kcal: < 86
+Fat: < 1
+saturated fat: 0
+carbohydrates: < 6
+sugar: <1
+proteins: <4
+salt: < 0.5
+price: ~€2
+
+Ahorro:
+Nutriscore: no aplica
+Kcal: < 245
+Fat: < 3
+saturated fat: < 1
+carbohydrates: < 28
+sugar: < 4
+proteins: < 12
+salt: < 1
+price: min (asc)
